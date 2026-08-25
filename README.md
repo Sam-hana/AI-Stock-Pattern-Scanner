@@ -41,7 +41,7 @@ If you want to run this scanner on your local machine, follow these steps:
 
 1. Clone the repository
 ```bash
-git clone [https://github.com/](https://github.com/)Sam-hana/AI-Stock-Pattern-Scanner.git
+git clone https://github.com/Sam-hana/AI-Stock-Pattern-Scanner.git
 cd AI-Stock-Pattern-Scanner
 ```
 
