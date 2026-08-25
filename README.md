@@ -50,12 +50,12 @@ Ensure you have Python installed, then run the following command to install the 
 ```bash
 pip install tensorflow yfinance mplfinance pandas requests numpy
 ```
-4. Generate the Daily Report
+3. Generate the Daily Report
 Run the main script to fetch today's data, scan for patterns, and generate the HTML report:
 ```bash
 python generate_report.py
 ```
-6. Retrain the Model (Optional)
+4. Retrain the Model (Optional)
 If you want to modify the architecture or train the model with new dataset images:
 ```bash
 python train_model.py
