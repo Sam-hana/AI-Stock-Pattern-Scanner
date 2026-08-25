@@ -43,19 +43,23 @@ If you want to run this scanner on your local machine, follow these steps:
 ```bash
 git clone [https://github.com/](https://github.com/)Sam-hana/AI-Stock-Pattern-Scanner.git
 cd AI-Stock-Pattern-Scanner
+```
 
 2. Install dependencies
 Ensure you have Python installed, then run the following command to install the required packages:
-pip install tensorflow yfinance mplfinance pandas requests numpy
-
-3. Generate the Daily Report
-Run the main script to fetch today's data, scan for patterns, and generate the HTML report:
-python generate_report.py
-
-4. Retrain the Model (Optional)
-If you want to modify the architecture or train the model with new dataset images:
-python train_model.py
 ```bash
+pip install tensorflow yfinance mplfinance pandas requests numpy
+```
+4. Generate the Daily Report
+Run the main script to fetch today's data, scan for patterns, and generate the HTML report:
+```bash
+python generate_report.py
+```
+6. Retrain the Model (Optional)
+If you want to modify the architecture or train the model with new dataset images:
+```bash
+python train_model.py
+```
 ## Current Limitations & Next Steps
 
 While the system successfully demonstrates an end-to-end automated scanning pipeline, the CNN model is currently trained on a relatively small dataset. As a result, the model's generalization capabilities and absolute accuracy in highly volatile or unseen market conditions still have room for improvement. 
