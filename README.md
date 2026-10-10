@@ -38,7 +38,7 @@ Solution: I addressed this severe data imbalance by calculating and applying cus
 ## How to Use (Local Setup)
 
 If you want to run this scanner on your local machine, follow these steps:
-
+(It is highly recommended to run these scripts using **Anaconda Prompt** rather than the standard Windows Command Prompt (cmd). Anaconda provides a pre-configured environment with proper network SSL certificates, which prevents errors when fetching data from web APIs.)
 1. Clone the repository
 ```bash
 git clone https://github.com/Sam-hana/AI-Stock-Pattern-Scanner.git
@@ -46,7 +46,7 @@ cd AI-Stock-Pattern-Scanner
 ```
 
 2. Install dependencies
-Ensure you have Python installed, then run the following command to install the required packages:
+Open your Anaconda Prompt, navigate to the project folder, and run the following command to install the required packages:
 ```bash
 pip install tensorflow yfinance mplfinance pandas requests numpy
 ```
