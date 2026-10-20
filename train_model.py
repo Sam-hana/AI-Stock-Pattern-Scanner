@@ -64,7 +64,6 @@ def main():
     ])
     
     # 4. Compile the model
-    # EXERCISE: Use the standard optimizer for deep learning and the correct loss function.
     model.compile(
         optimizer='adam',
         loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False),
